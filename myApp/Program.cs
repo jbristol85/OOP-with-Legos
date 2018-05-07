@@ -19,9 +19,9 @@ namespace myApp
 
     public class Car
     {
-        public Car (string _color, string _manufacturer) {
-            this.color = _color;
-            this.manufacturer = _manufacturer;
+        public Car (string _color = null, string _manufacturer = null) {          
+            this.color = _color; 
+            this.manufacturer = _manufacturer;          
         }
         
         public string color { get; set; }
